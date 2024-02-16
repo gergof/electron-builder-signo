@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/gergof/electron-builder-signo/compare/v1.1.0...v1.1.1) (2024-02-16)
+
+
+### Bug Fixes
+
+* The entrypoint should have .mjs extension ([ed71ade](https://github.com/gergof/electron-builder-signo/commit/ed71ade331ed49038fe91f9f53d5d7e72ff8c071))
+
 ## 1.1.0 (2024-02-16)
 
 
