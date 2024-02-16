@@ -1,6 +1,6 @@
 {
   "name": "electron-builder-signo",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "Electron-builder sign function that uses signo as a backend",
   "scripts": {
