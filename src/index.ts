@@ -2,7 +2,7 @@ import fsp from 'fs/promises';
 import path from 'path';
 
 import { WindowsSignTaskConfiguration } from 'electron-builder';
-import env, { EnvVarError } from 'env-var';
+import env from 'env-var';
 import SignoClient from 'signo-client';
 
 import log from './log.js';
@@ -23,7 +23,7 @@ const sign = async (signTask: WindowsSignTaskConfiguration) => {
 		config.secret = env.get('SIGNO_SECRET').required().asString();
 		config.engine = env.get('SIGNO_ENGINE').required().asIntPositive();
 	} catch (e: any) {
-		if (e instanceof EnvVarError) {
+		if (e instanceof env.EnvVarError) {
 			log.error(`Configuration error: ${e.message}`);
 		}
 		throw new Error('Signo configuration error');
