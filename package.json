@@ -33,7 +33,7 @@
     "sign"
   ],
   "author": "Fandly Gergo",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gergof/electron-builder-signo/issues"
   },
