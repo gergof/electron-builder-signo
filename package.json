@@ -58,7 +58,7 @@
   "dependencies": {
     "chalk": "^5.3.0",
     "env-var": "^7.4.1",
-    "signo-client": "^1.0.2"
+    "signo-client": "^1.1.0"
   },
   "peerDependencies": {
     "electron-builder": "^24.9.1"
